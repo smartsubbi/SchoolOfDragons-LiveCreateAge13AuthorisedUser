@@ -7,4 +7,15 @@
       <class name="com.SchoolOfDragons.SchoolOfDragons_Live_CreateAge13AuthorisedUser.TestCase8"/>
     </classes>
   </test> <!-- Live Tests -->
+  <test name="Live Tests(failed)">
+    <classes>
+      <class name="com.SchoolOfDragons.SchoolOfDragons_Live_CreateAge13AuthorisedUser.TestCase8">
+        <methods>
+          <include name="afterTest"/>
+          <include name="createNewUserAge13"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.SchoolOfDragons.SchoolOfDragons_Live_CreateAge13AuthorisedUser.TestCase8 -->
+    </classes>
+  </test> <!-- Live Tests(failed) -->
 </suite> <!-- Failed suite [Live Test Cases Suite] -->

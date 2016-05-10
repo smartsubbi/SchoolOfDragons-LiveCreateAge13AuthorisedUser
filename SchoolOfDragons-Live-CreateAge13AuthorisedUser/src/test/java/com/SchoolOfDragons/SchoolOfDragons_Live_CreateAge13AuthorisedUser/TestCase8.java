@@ -43,7 +43,7 @@ public class TestCase8
 	
 	@Parameters(value="Category")
 	@Test
-	public void createNewUserAge12() throws Throwable
+	public void createNewUserAge13() throws Throwable
 	{
 		logger = report.startTest("Test Case 5: School Of Dragons - Live - Create Age 13 Player (Authorized User) ","This will verify if user can create an Authorized user with age 13").assignCategory("none");
 		
@@ -67,9 +67,9 @@ public class TestCase8
 		signUpPage.confirmButtonDisabledElementValidation();
 		logger.log(LogStatus.INFO, "Verified if the Confirm Button is disabled");		
 		signUpPage.selectAge(age);
-		logger.log(LogStatus.INFO, "Select age 12");		
+		logger.log(LogStatus.INFO, "Select age 13");		
 		signUpPage.selectedAgeElementValidation(age);
-		logger.log(LogStatus.INFO, "Verify if age selected is 12");		
+		logger.log(LogStatus.INFO, "Verify if age selected is 13");		
 		signUpPage.confirmButtonEnabledElementValidation();
 		logger.log(LogStatus.INFO, "Verify if the confirm button is enabled");		
 		String signUpPageAfterAgeSelection=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver, "Application"));
